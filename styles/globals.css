@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.coverMain {
+  min-height: 20rem;
+}
+
+@media screen and (min-width: 768px) {
+  .coverMain {
+    min-height: 35rem;
+  }
+}
+
+.footer__avatar {
+  border: 8px solid white !important;
+}
+
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: hsl(var(--nf, var(--n)) / var(--tw-border-opacity));
+  --tw-border-opacity: 0.2;
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: var(--rounded-btn, 0.5rem);
+  border-bottom-width: 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  min-height: 2.2em;
+  min-width: 2.2em;
+}
