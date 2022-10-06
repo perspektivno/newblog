@@ -2,7 +2,7 @@
 layout: post
 title: 'Создаем компонент прокручиваемого контейнера на Реакте'
 date: 2021-11-30 22:58 +09:00
-tags: ['react', 'typescript', 'фронтенд']
+tags: ['react', 'typescript', 'фронтенд', 'kekl']
 image: /images/react-scrollable-container/preview.jpg
 summary: 'Реализация прокручиваемого контейнера на Реакте с контролами'
 ---
